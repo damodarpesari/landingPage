@@ -1,0 +1,165 @@
+* {
+	background-color: #272e4f;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+header {
+	font-family: 'Berkshire Swash', cursive, sans-serif;
+	font-size: 4em;
+	color: #d04925;
+	top: 30%;
+	left: 50%;
+	position: absolute;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+h4 {
+	font-family: 'Berkshire Swash', cursive, sans-serif;
+	color: #fec771;
+	top: 38%;
+	left: 50%;
+	position: absolute;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	letter-spacing: 0.3em;
+}
+.menu {
+	bottom: 37%;
+	left: 50%;
+	position: absolute;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu a {
+	background-color: #293462;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 8px 28px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.menu a:hover {
+	background-color: #132743;
+}
+.cta {
+	top: 2rem;
+	right: 2rem;
+	position: absolute;
+	color: #64e291;
+}
+.icon {
+	cursor: pointer;
+	margin: 1rem;
+}
+.call {
+	text-decoration: none;
+	margin: 1rem;
+	top: 2rem;
+	left: 2rem;
+	position: absolute;
+	letter-spacing: .6rem;
+	color: white;
+}
+.reserve {
+	padding: 0 0.5rem 0 0.5rem;
+	text-align: center;
+	color: white;
+	bottom: 15%;
+	left: 50%;
+	position: absolute;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+input {
+	padding-left: 0.4rem;
+	width: 7rem;
+	background-color: #fbc99d;
+	border: none;
+	border-radius: 5px;
+	margin: 0.5rem;
+	cursor: auto;
+}
+.form-button {
+	padding-left: 0.4rem;
+	margin-left: .5rem;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: white;
+}
+.form-button:hover {
+	color: black;
+}
+h3 {
+	padding-bottom: 1rem;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 0.3em;
+}
+.open {
+	text-align: center;
+	color: white;
+	bottom: 7%;
+	left: 50%;
+	position: absolute;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+}
+.address {
+	text-align: center;
+	color: #64e291;
+	bottom: 3%;
+	left: 50%;
+	position: absolute;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+}
+.copyright {
+	text-align: center;
+	font-size: .8rem;
+	color: #64e291;
+	bottom: 1%;
+	left: 50%;
+	position: absolute;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	opacity: 0.3;
+}
+
+@media (max-width: 500px) {
+	header {
+		font-size: 3rem;
+	}
+
+	input {
+		width: 15%;
+	}
+	.reserve {
+		bottom: 19%;
+	}
+	.open {
+		bottom: 9%;
+		padding-bottom: 0.5rem;
+		padding-right: 0.3rem;
+		padding-left: 0.3rem;
+	}
+	.icon {
+		margin: 0.4rem;
+	}
+	.call {
+		top: 18%;
+		left: 50%;
+		position: absolute;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+	}
+}
